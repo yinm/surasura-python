@@ -1,2 +1,3 @@
-number_str = 3
-print(1 + int(number_str))
+number = 3
+buried = 'numberの中身は{}です。'.format(number)
+print(buried)
