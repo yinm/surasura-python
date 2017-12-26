@@ -1,4 +1,3 @@
-number_1 = 5
-number_2 = '12'
-buried = '最初の変数は{}です。次の変数は{}です。'.format(number_1, number_2)
-print(buried)
+test_str = 'Title'
+print(test_str.upper())
+print(test_str.lower())
