@@ -1,2 +1,2 @@
-number_int = 3
-print('python' + str(number_int))
+number_str = 3
+print(1 + int(number_str))
