@@ -1,3 +1,4 @@
-test_str = 'Title'
-print(test_str.upper())
-print(test_str.lower())
+test_str = ' include space   '
+print(test_str.strip())
+print(test_str.lstrip())
+print(test_str.rstrip())
