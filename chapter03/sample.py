@@ -1,4 +1,4 @@
-member = 3
+member = 5
 store = 'A'
 if member > 4:
     store = 'B'
