@@ -1,6 +1,2 @@
-price = 150
-number = 2
-print(price * number)
-
-number = 3
-print(price * number)
+number_int = 3
+print('python' + number_int)
