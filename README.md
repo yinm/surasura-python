@@ -1,1 +1,1 @@
-# surasura-python
+[スラスラわかるPython](http://www.shoeisha.co.jp/book/detail/9784798151090)をやってます。
