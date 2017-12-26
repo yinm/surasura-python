@@ -1,2 +1,4 @@
-print(150 * 2)
-print(150 * 3)
+price = 150
+
+print(price * 2)
+print(price * 3)
