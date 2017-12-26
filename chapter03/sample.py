@@ -1,8 +1,3 @@
-member = 3
-today = '月'
-if member <= 4 and today != '月':
-    store = 'A'
-else:
-    store = 'B'
-
-print('{}の店に行く'.format(store))
+member = 5
+today = '水'
+print(member <= 4 or today != '月')
