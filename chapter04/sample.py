@@ -1,3 +1,3 @@
 fruits = ['apple', 'orange']
-fruits.append('banana')
-print(fruits[2])
+fruits[1] = 100
+print(fruits[1])
