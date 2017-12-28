@@ -1,3 +1,6 @@
 fruits = ['apple', 'orange']
-fruits[1] = 100
-print(fruits[1])
+if 'apple' in fruits:
+    print('appleはfruitsの中にあります')
+
+if 'tomato' not in fruits:
+    print('tomatoはfruitsの中にありません')
