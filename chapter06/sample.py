@@ -1,5 +1,5 @@
-def greet_to(name):
-    print('Hello {}-san'.format(name))
+def make_greet(name):
+    greet = 'Hello {}-san'.format(name)
+    return greet
 
-greet_to('Sato')
-greet_to('Suzuki')
+print(make_greet('Sato'))
