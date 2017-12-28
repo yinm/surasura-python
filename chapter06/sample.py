@@ -1,9 +1,7 @@
-def make_greet(name):
-    greet = 'Hello {}-san.'.format(name)
-    return greet
+def make_num():
+    num = 10
+    print(num)
 
-for name in ['Sato', 'Suzuki', 'Tanaka']:
-    print(make_greet(name))
+make_num()
 
-print('last one.')
-print(make_greet('Hasegawa'))
+print(num)
