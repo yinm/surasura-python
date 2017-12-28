@@ -1,3 +1,5 @@
 fruits_dict = {'apple': 100, 'orange': 150, 'banana': 200}
-for fruit in fruits_dict:
-    print(fruits_dict[fruit])
+
+print(fruits_dict.values())
+for fruit_value in fruits_dict.values():
+    print(fruit_value)
