@@ -1,5 +1,3 @@
-li = ['a', 'b', 'c']
-print(li[1])
-print(li[-1])
-print(li)
-print(li[-2])
+fruits = ['apple', 'orange']
+for fruit in fruits:
+    print(fruit)
