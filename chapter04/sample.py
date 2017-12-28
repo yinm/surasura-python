@@ -1,9 +1,16 @@
-li = ['a', 'b', 'c']
+num_list = []
 
-li.remove('b')
-print(li)
+num_list = [1, 2, 3,]
+print(num_list)
 
-print(li.pop())
-print(li)
+print(num_list[1])
 
-li.remove('c')
+num = []
+for n in num_list:
+    num.append(n)
+print(num)
+
+num_list = [1, 2, 3]
+for num in num_list:
+    if num >= 2:
+        print(num)
