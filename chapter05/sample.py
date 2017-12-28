@@ -1,4 +1,9 @@
 fruits_dict = {'apple': 100, 'orange': 150}
-fruits_dict['banana'] = 50
-fruits_dict['apple'] = 50
-print(fruits_dict)
+if 'apple' in fruits_dict:
+    print('appleはfruitsの中にあります')
+
+if 'tomato' not in fruits_dict:
+    print('tomatoはfruitsの中にありません')
+
+if 100 not in fruits_dict:
+    print('100はfruitsのkeyにはありません')
