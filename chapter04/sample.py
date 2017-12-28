@@ -1,12 +1,9 @@
-numbers = [1, 2, 3, 4, 5, 6]
-odd_list = []
-even_list = []
+li = ['a', 'b', 'c']
 
-for number in numbers:
-    if number % 2 == 1:
-        odd_list.append(number)
-    elif number % 2 == 0:
-        even_list.append(number)
+li.remove('b')
+print(li)
 
-print(odd_list)
-print(even_list)
+print(li.pop())
+print(li)
+
+li.remove('c')
