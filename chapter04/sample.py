@@ -1,6 +1,5 @@
-fruits = ['apple', 'orange']
-if 'apple' in fruits:
-    print('appleはfruitsの中にあります')
-
-if 'tomato' not in fruits:
-    print('tomatoはfruitsの中にありません')
+li = ['a', 'b', 'c']
+print(li[1])
+print(li[-1])
+print(li)
+print(li[-2])
