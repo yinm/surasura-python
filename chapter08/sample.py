@@ -1,4 +1,3 @@
-from greet import greet_to
+import greet as gt
 
-greet_to('Tanaka')
-make_greet('hoge')
+gt.greet_to('Tanaka')
