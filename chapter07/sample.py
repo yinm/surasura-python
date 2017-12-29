@@ -1,10 +1,6 @@
-def add_10(num):
-    if not isinstance(num, int):
-        print('Invalid num')
-        return False
-    add_num = num + 10
-    print('add_num is {}'.format(add_num))
-    return add_num
+def greet_to(name):
+    print('Hello {}-san'.format(name))
 
-print(add_10(10))
-print(add_10('二十'))
+greet_to('Sato')
+greet_to(100)
+greet_to([1, 2])
