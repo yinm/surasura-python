@@ -1,8 +1,8 @@
 num = 10
 
 def make_num():
-    num = 20
-    print('ローカル変数は', num)
+    local_num = num + 10
+    print('ローカル変数は', local_num)
 
 make_num()
 
