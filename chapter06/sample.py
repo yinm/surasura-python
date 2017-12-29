@@ -1,7 +1,9 @@
+num = 10
+
 def make_num():
-    num = 10
-    print(num)
+    num = 20
+    print('ローカル変数は', num)
 
 make_num()
 
-print(num)
+print('ローカル変数外は', num)
