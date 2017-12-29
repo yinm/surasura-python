@@ -1,6 +1,10 @@
-def greet_to(name):
-    print('Hello {}-san'.format(name))
+def add_10(num):
+    try:
+        add_num = num + 10
+        print('add_num is {}'.format(add_num))
+        return add_num
+    except:
+        print('Error!')
 
-greet_to('Sato')
-greet_to(100)
-greet_to([1, 2])
+add_10(10)
+add_10('hoge')
